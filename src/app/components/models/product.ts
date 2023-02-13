@@ -1,12 +1,9 @@
 export interface IProduct {
+    color: [{
+        id: number
+        title: string
+        code: string
+    }]
     id: number
-    title: string
-    price: number
-    description: string
-    category: string
-    image: string
-    rating: {
-        rate: number
-        count:number
-    }
+    image
 }
